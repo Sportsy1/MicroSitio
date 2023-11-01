@@ -1,0 +1,266 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: #0b8770;
+}
+
+.fondo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 844px;
+  height: 390px;
+  background-color: #17181f;
+}
+      
+.layout {
+  background-color: #314d4a;
+  position: absolute;
+  width: 750px;
+  height: 290px;
+  left: 45px;
+  top: 50px;
+}
+      
+header {
+  position: absolute;
+  display: flex;
+  width: 121px;
+  height: 173px;
+  top: 53px;
+  left: 392px;
+  background-color: #a6c288;
+  align-items: center;
+  justify-content: center;
+}
+
+.Titulo {
+  position: absolute;
+  font-family: 'Lexend', sans-serif;
+  font-size: 87px;
+  text-align: center;
+  color: #17181f;
+}
+
+.menu-buttons * {
+  background-color: #a6c288;
+  position: absolute;
+}
+
+.mapa{
+  width: 64px;
+  height: 64px;
+  left: 149px;
+  top: 25px;
+}
+      
+.pausa{
+  width: 64px;
+  height: 64px;
+  left: 57px;
+  top: 25px;
+}
+        
+.joystick{
+  position: absolute;
+  border-radius: 50%;
+}
+
+.inventory {
+  position: absolute;
+  width: 334px;
+  height: 239px;
+  top: 76px;
+  left: 260px;
+  background-color: #0b8770;
+}
+      
+.items * {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+      
+.item_1 {
+  background-color: #ebe68d;
+  left: 80px;
+  top: 8px;
+}
+      
+.item_2 {
+  background-color: #ebe68d;
+  left: 180px;
+  top: 20px;
+}
+      
+.item_3 {
+  background-color: #ebe68d;
+  left: 80px;
+  top: 85px;
+}
+      
+.item_4 {
+  background-color: #ebe68d;
+  left: 180px;
+  top: 100px;
+}
+      
+.item_5 {
+  background-color: #ebe68d;
+  left: 180px;
+  top: 175px;
+}
+      
+.item_6 {
+  background-color: #ebe68d;
+  left: 80px;
+  top: 165px;
+}
+
+@media (min-width: 1441px) {
+
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;  
+    background-color: #0b8770;
+  }
+  .fondo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1440px;
+    height: 960px;
+    background-color: #17181f;
+  }
+  
+.layout {
+    background-color: #314d4a;
+    position: absolute;
+    width: 1081px;
+    height: 860px;
+    left: 189px;
+    top: 52px;
+  }
+  
+  
+  header {
+    position: absolute;
+    display: flex;
+    width: 1021px;
+    height: 173px;
+    top: 53px;
+    left: 392px;
+    background-color: #a6c288;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .Titulo {
+    position: absolute;
+    font-family: 'Lexend', sans-serif;
+    font-size: 87px;
+    text-align: center;
+    color: #17181f;
+  }
+  
+  
+  .Descripcion {
+    display: flex;
+    position: absolute;
+    width: 950px;
+    height: 382px;
+    background-color: #a6c288;
+    left: 421px;
+    top: 322px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Descripcion {
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 55px;
+    text-align: center;
+    color: #17181f;
+    align-items: center;
+    justify-content: center; 
+  }
+  
+  .menu-buttons * {
+    background-color: #a6c288;
+    position: absolute;
+  }
+  .mapa{
+    width: 122px;
+    height: 124px;
+    left: 179px;
+    top: 25px;
+  }
+  
+  .pausa{
+    width: 122px;
+    height: 124px;
+    left: 17px;
+    top: 25px;
+  }
+    
+  .joystick{
+    position: absolute;
+    border-radius: 50%;
+  }
+  .inventory {
+    position: absolute;
+    width: 824px;
+    height: 729px;
+    top: 114px;
+    left: 320px;
+    background-color: #0b8770;
+  }
+  .items * {
+    position: absolute;
+    width: 128px;
+    height: 128px;
+  }
+  
+  .item_1 {
+    background-color: #ebe68d;
+    left: 122px;
+    top: 80px;
+  }
+  
+  .item_2 {
+    background-color: #ebe68d;
+    left: 522px;
+    top: 150px;
+  }
+  
+  .item_3 {
+    background-color: #ebe68d;
+    left: 122px;
+    top: 265px;
+  }
+  
+  .item_4 {
+    background-color: #ebe68d;
+    left: 522px;
+    top: 335px;
+  }
+  
+  .item_5 {
+    background-color: #ebe68d;
+    left: 522px;
+    top: 520px;
+  }
+  
+  .item_6 {
+    background-color: #ebe68d;
+    left: 122px;
+    top: 450px;
+  }
+
+}

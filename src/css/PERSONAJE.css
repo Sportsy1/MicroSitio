@@ -1,0 +1,67 @@
+  body {
+    background:#0b8770;
+  }
+  
+  #personaje{ background:url(https://cdn.discordapp.com/attachments/865742990907015171/1168265299510952009/personaje2_3.png?ex=655122d8&is=653eadd8&hm=4a7b8094fa8c79c7f8c954b72c9ad89c6645924f0be5f8a13d46ff070793ddd9&);
+    width: 102px;
+    height: 141px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  
+  .frame0{
+    background-position-y:-4px !important;
+  }
+  
+  .frame1{
+    background-position-x: -200px !important;
+    background-position-y: 1px !important;
+  }
+  
+  .frame2{
+    background-position-x: -400px !important;
+    background-position-y: -5px !important;
+  }
+  
+  .frame3{
+    background-position-y:-155px !important;
+  }
+  
+  .frame4{
+    background-position-x: -200px !important;
+    background-position-y:-146px !important;
+  }
+  
+  .frame5{
+    background-position-x: -400px !important;
+    background-position-y:-146px !important;  
+  }
+  
+  .frame6{
+    background-position-y:-310px !important;  
+  }
+  
+  .frame7{
+    background-position-x: -200px !important;
+    background-position-y:-310px !important;  
+  }
+  
+  .frame8{
+    background-position-x: -398px !important;
+    background-position-y:-310px !important;  
+  }
+  
+  .frame9{
+    background-position-y:-465px !important;
+  }
+  
+  .frame10{
+    background-position-x: -200px !important;
+    background-position-y:-465px !important;
+  }
+  
+  .frame11{
+    background-position-x: -400px !important;
+    background-position-y:-465px !important;
+  }

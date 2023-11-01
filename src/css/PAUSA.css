@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: #0b8770;
+}
+
+.fondo {
+  position: absolute;
+ top: 50%;
+ left: 50%;
+  transform: translate(-50%, -50%);
+ width: 844px;
+ height: 390px;
+ background-color: #17181f;
+}
+
+.layout {
+  background-color: #314d4a;
+  position: absolute;
+  width: 579px;
+ height: 390px;
+  left: 133px;
+}
+
+.header {
+ position: absolute;
+ display: flex;
+  width: 521px;
+  height: 73px;
+  top: 16px;
+  left: 162px;
+ background-color: #a6c288;
+  align-items: center;
+  justify-content: center;
+}
+
+.Titulo {
+ position: absolute;
+  font-family: 'Lexend', sans-serif;
+ font-size: 27px;
+ text-align: center;
+ color: #17181f;
+}
+
+.opciones * {
+ position: absolute;
+ background-color: #a6c288;
+  align-items: center;
+ justify-content: center;
+ display: flex;
+ font-family: 'Josefin Sans', sans-serif;
+ font-size: 27px;
+ color: #17181f;
+}
+
+.home {
+ width: 235px;
+ height: 50px;
+ top: 165px;
+ left: 304px;
+}
+
+.regresar {
+ width: 235px;
+ height: 50px;
+ top: 239px;
+ left: 304px;
+}
+.fondo {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ width: 844px;
+ height: 390px;
+ background-color: #17181f;
+}
+
+
+@media (min-width: 1441px) {
+
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #0b8770;
+  }
+  .fondo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1440px;
+    height: 960px;
+    background-color: #17181f;
+  }
+  
+  .layout {
+    background-color: #314d4a;
+    position: absolute;
+    width: 1130px;
+    height: 960px;
+    left: 155px;
+  }
+  
+  .header {
+    position: absolute;
+    display: flex;
+    width: 1061px;
+    height: 189px;
+    top: 66px;
+    left: 189px;
+    background-color: #a6c288;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Titulo {
+    position: absolute;
+    font-family: 'Lexend', sans-serif;
+    font-size: 64px;
+    text-align: center;
+    color: #17181f;
+  }
+  
+  .opciones * {
+    position: absolute;
+    background-color: #a6c288;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 64px;
+    color: #17181f;
+  }
+  
+  .home {
+    width: 479px;
+    height: 123.393px;
+    top: 403px;
+    left: 477px;
+  }
+  
+  .regresar {
+    width: 479px;
+    height: 123.393px;
+    top: 610px;
+    left: 477px;
+  }
+  
+}

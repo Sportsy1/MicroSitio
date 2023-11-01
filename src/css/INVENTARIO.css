@@ -1,0 +1,37 @@
+.menu-buttons * {
+    z-index: 1;
+    background-color: #a6c288;
+    position: absolute;
+}
+  
+.pausa{
+    width: 77px;
+    height: 71px;
+    left: 64px;
+    top: 9px;
+}
+  
+.interfaz{
+    width: 77px;
+    height: 71px;
+    left: 704px;
+    top: 9px; 
+}
+  
+.inventario {
+    position: absolute;
+    width: 717px;
+    height: 315px;
+    background-color: #314d4a;
+    left: 64px;
+    bottom: 18px;
+}
+.fondo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 844px;
+    height: 390px;
+    background-color: #17181f;
+  }

@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+  margin: 0;
+}
+
+.fondo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 844px;
+  height: 390px;
+  background-color: #17181f;
+}
+
+.casa {
+  background-color: #a6c288;
+  position: absolute;
+  width: 579px;
+  height: 390px;
+  left: 133px;
+}
+
+.puerta {
+  background-color: #ebe68d;
+  position: absolute;
+  width: 133px;
+ height: 166px;
+ bottom: 30px;
+ left: 223px;
+}
+
+header {
+ position: absolute;
+ display: flex;
+ width: 800px;
+ height: 73px;
+ top: 34px;
+ left: 23px;
+ background-color: #314d4a;
+ align-items: center;
+ justify-content: center;
+}
+
+.Titulo {
+ position: absolute;
+ font-family: 'Lexend', sans-serif;
+ font-size: 27px;
+  text-align: center;
+ color: #ebe68d;
+}
+
+.highlight {
+  color: #ea2a15;
+}
+
+@media (min-width: 1441px) and (max-width: 1920px) {
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #0b8770;
+  }
+  
+  .fondo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1440px;
+    height: 960px;
+    background-color: #17181f;
+  }
+  
+  .casa {
+    background-color: #a6c288;
+    position: absolute;
+    width: 1130px;
+    height: 960px;
+    left: 155px;
+  }
+  
+  .puerta {
+    background-color: #ebe68d;
+    position: absolute;
+    width: 280px;
+    height: 334px;
+    bottom: 230px;
+    left: 425px;
+  }
+  
+  header {
+    position: absolute;
+    display: flex;
+    width: 1048px;
+    height: 202px;
+    top: 46px;
+    left: 196px;
+    background-color: #314d4a;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Titulo {
+    position: absolute;
+    font-family: 'Lexend', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #ebe68d;
+  }
+  
+  .highlight {
+    color: #ea2a15;
+  }
+}
+
+@media (min-width: 1920px){
+  body {
+    margin: 0;
+  }
+  
+  .fondo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1920px;
+    height: 1080px;
+    background-color: #17181f;
+  }
+  
+  .casa {
+    background-color: #a6c288;
+    position: absolute;
+    width: 1668px;
+    height: 1080px;
+    left: 126px;
+  }
+  
+  .puerta {
+   background-color: #ebe68d;
+   position: absolute;
+   width: 182px;
+   height: 217px;
+   bottom: 214px;
+   left: 743px;
+  }
+  
+  header {
+   position: absolute;
+   display: flex;
+   width: 1504px;
+   height: 290px;
+   top: 65px;
+   left: 202px;
+   background-color: #314d4a;
+   align-items: center;
+   justify-content: center;
+  }
+  
+  .Titulo {
+   position: absolute;
+   font-family: 'Lexend', sans-serif;
+   font-size: 61px;
+    text-align: center;
+   color: #ebe68d;
+  }
+  
+  .highlight {
+    color: #ea2a15;
+  }
+}
+
+
+
