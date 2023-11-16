@@ -1,10 +1,10 @@
 {
   "name": "videogames_history",
   "version": "1.0.0",
-  "main": "HOME.html",
+  "main": "index.js",
   "scripts": {
     "clear:dev": "rimraf ./dist",
-    "dev": "npm run clear:dev && parcel ./src/*.html --public-url ./"
+    "dev": "npm run clear:dev && parcel ./src/*.html"
   },
   "devDependencies": {
     "parcel": "^2.9.3",
