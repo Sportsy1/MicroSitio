@@ -1,0 +1,172 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #0b8770;
+  }
+  
+  .fondo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1380px;
+    height: 800px;
+    background-color: #17181f;
+  }
+  
+  .layout {
+    background-color: #314d4a;
+    position: absolute;
+    width: 1100px;
+    height: 800px;
+    left: 137px;
+  }
+  
+  .casa{
+    position: absolute;
+    background-color: #0b8770;
+    width: 920px;
+    height: 665px;
+    left: 224px;
+    top: 68px;
+  }
+  
+  .habitaciones * {
+    position: absolute;
+    background-color: #17181f;
+  }
+  
+  .atico{
+    width: 150px;
+    height: 150px;
+    left: 336px;
+    top: 120px;
+    background-image: url('https://cdn.discordapp.com/attachments/865742990907015171/1174571527371509820/image.png?ex=656813fa&is=65559efa&hm=a2ce1d3913bdf772878b0fc3c48b27ec10bb4fb67e6dce824acb62eb98c3c967&');
+    background-size: cover;
+  }
+  
+  .habitacion {
+    width: 150px;
+    height: 150px;
+    top: 220px;
+    left: 853px;
+    background-image: url('https://cdn.discordapp.com/attachments/865742990907015171/1174571675497545768/image.png?ex=6568141d&is=65559f1d&hm=e3079ce16b119ab3ff7a897ac0fcce1ce556cbafdd0edff474b4403b3d320179&');
+    background-size: cover;
+  }
+  
+  .sotano{
+    width: 150px;
+    height: 150px;
+    top: 490px;
+    left: 853px;
+    background-image: url('https://cdn.discordapp.com/attachments/865742990907015171/1174571962895450222/image.png?ex=65681462&is=65559f62&hm=72af9447aa4654d98c91d733f62398a5511263776d949c1d34eecc58d042cebf&');
+    background-size: cover;
+  }
+  
+  .cocina{
+    width: 150px;
+    height: 150px;
+    top: 390px;
+    left: 335px;
+    background-image: url('https://cdn.discordapp.com/attachments/865742990907015171/1174572130927652864/image.png?ex=6568148a&is=65559f8a&hm=b684f26cfbd7eb6577d07084686b885bdce9dfbe0b3d574aa74f907def938745&');
+    background-size: cover;
+  }
+  
+  header {
+    position: absolute;
+    display: flex;
+    width: 521px;
+    height: 73px;
+    top: 16px;
+    left: 162px;
+    background-color: #a6c288;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .Titulo {
+    position: absolute;
+    font-family: 'Lexend', sans-serif;
+    font-size: 27px;
+    text-align: center;
+    color: #17181f;
+  }
+  
+  
+  .Descripcion {
+    display: flex;
+    position: absolute;
+    width: 350px;
+    height: 182px;
+    background-color: #a6c288;
+    left: 247px;
+    top: 122px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #my-image{
+  
+    position:absolute;
+    width: 579px;
+    height: 389px;
+    left:133px;
+  
+  }
+  
+  .Descripcion {
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: #17181f;
+    align-items: center;
+    justify-content: center; 
+  }
+  
+  .menu-buttons * {
+    background-color: #a6c288;
+    position: absolute;
+  }
+  
+  .pausa{
+    width: 77px;
+    height: 71px;
+    left: 26px;
+    top: 15px;
+    background-image: url('https://cdn.discordapp.com/attachments/865742990907015171/1174515031870804118/imagen_2023-11-15_200312497-removebg-preview.png?ex=6567df5d&is=65556a5d&hm=aca0f1037a37cced31596a885951e45094b8142c88af19beb51d0f703d2dbf40&');
+    background-size: cover;
+  }
+  
+  .inventario{
+    width: 77px;
+    height: 71px;
+    left: 1269px;
+    top: 10px;
+    background-image: url('https://cdn.discordapp.com/attachments/865742990907015171/1174513463012360283/maleta_1.png?ex=6567dde6&is=655568e6&hm=de784bed4d25080e29964d8c6857e634bfc33abc98690937a76ceb76379d5840&');
+    background-size: cover;
+  }
+  
+  .mapa{
+    width: 77px;
+    height: 71px;
+    left: 1275px;
+    top: 15px;
+  }
+  
+  button {
+    background-color: green;
+    color: white;
+  }
+  
+  .game {
+    position: absolute;
+    width: 576px;
+    height: 389px;
+    left: 134px;
+  }
+  
+
+/*# sourceMappingURL=MAPA_PC.88d54b54.css.map */

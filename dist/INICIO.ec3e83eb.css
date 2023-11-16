@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+  margin: 0;
+}
+
+body {
+ width: 100%;
+  height: 100%;
+  margin: 0;
+ background-color: #0b8770;
+}
+
+.fondo {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ width: 844px;
+ height: 390px;
+ background-color: #17181f;
+}
+
+.linea {
+  position: absolute;
+  width: 3px;
+ height: 81px;
+  left: calc(50% - 1.5px);
+  background-color: #0b8770;
+}
+
+.luz {
+ position: absolute;
+ top: 47.5px;
+ left: 356px;
+  border-radius: 50%;
+ background: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)),
+   rgba(217, 217, 217, 0.92);
+ filter: blur(4px);
+ width: 131px;
+ height: 118px;
+}
+
+.lampara {
+ position: absolute;
+ top: 81px;
+ left: 396.69px;
+ width: 49.31px;
+ height: 50.3px;
+ background-color: #a6c288;
+}
+
+@media (min-width: 1440px) and (max-width: 1920px) {
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #0b8770;
+  }
+  
+  .fondo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1440px;
+    height: 960px;
+    background-color: #17181f;
+  }
+  
+  .linea {
+    position: absolute;
+    width: 3px;
+    height: 250px;
+    left: calc(50% - 1.5px);
+    background-color: #0b8770;
+  }
+  
+  .luz {
+    position: absolute;
+    top: 162px;
+    left: 524px;
+    border-radius: 50%;
+    background: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)),
+      rgba(217, 217, 217, 0.92);
+    filter: blur(4px);
+    width: 392px;
+    height: 364px;
+  }
+  
+  .lampara {
+    position: absolute;
+    top: 266px;
+    left: 647px;
+    width: 147px;
+    height: 154px;
+    background-color: #a6c288;
+  }
+}
+
+@media (min-width: 1920px) {
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #0b8770;
+  }
+  .fondo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1920px;
+    height: 1080px;
+    background-color: #17181f;
+  }
+  
+  .linea {
+    position: absolute;
+    width: 4px;
+    height: 300px;
+    left: calc(50% - 1.5px);
+    background-color: #0b8770;
+  }
+  
+  .luz {
+    position: absolute;
+    top: 116px;
+    left: 720px;
+    border-radius: 50%;
+    background: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)),
+      rgba(217, 217, 217, 0.92);
+    filter: blur(4px);
+    width: 480px;
+    height: 463px;
+  }
+  
+  .lampara {
+    position: absolute;
+    top: 263px;
+    left: 865px;
+    width: 190px;
+    height: 185px;
+    background-color: #a6c288;
+  }
+}
+
+
+/*# sourceMappingURL=INICIO.ec3e83eb.css.map */
