@@ -6,6 +6,7 @@
   <link rel = "stylesheet" href = "css/PERSONAJE.css">
   <link rel="stylesheet" href="css/PLANTILLA.css">
   <link rel="stylesheet" href="css/HABITACIONES.css">
+  <link rel ="stylesheet" href ="css/POP_UPS/POP-UPS_HABITACION.css">
   <script src="js/juego.js"></script>
   <title>HABITACION</title>
 </head>
@@ -29,6 +30,7 @@
             <div class = item_12></div>
           </div>
         </div>
+        <div id="limitante"></div>
         <div class="menu-buttons">
           <a href ="MAPA.html">
             <div class="mapa"></div>
@@ -43,9 +45,41 @@
            <div class="margen"></div>
            <div class="circle"></div>
         </div>
-        <img id="my-image" src="imagenes/habitacionpng.png"></img>
+        <img id="background" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/abfdcfef-37a8-4791-a48a-ab3f77d3f63c/decfi1l-1fd131b0-0f76-44e9-8bbc-8642198542f9.png/v1/fill/w_1280,h_752,q_80,strp/fnaf_4_bedroom_by_jiolns_decfi1l-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzUyIiwicGF0aCI6IlwvZlwvYWJmZGNmZWYtMzdhOC00NzkxLWE0OGEtYWIzZjc3ZDNmNjNjXC9kZWNmaTFsLTFmZDEzMWIwLTBmNzYtNDRlOS04YmJjLTg2NDIxOTg1NDJmOS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.uTggNUHig9eFjWp5tkYJ0dTnvdLicvlJaMmt2s_khaA"></img>
+        <button id="showPopUpButton"></button>
         <div id ="personaje"></div>
+        <img id="Imagen_1" src="https://cdn.discordapp.com/attachments/865742990907015171/1174347897265995796/imagen_2023-11-15_085904028-removebg-preview.png?ex=656743b5&is=6554ceb5&hm=ce0c247cfa3498d6e9aae67210597a3e05041883cb241f66ae2aa647404e3f54&">
+        <img id="Imagen_2" src="https://cdn.discordapp.com/attachments/865742990907015171/1174348294785355888/imagen_2023-11-15_090042302-removebg-preview.png?ex=65674413&is=6554cf13&hm=350cbbd0546bc7f6cea3da27356b68947fe79ee7ce13ea0e7ead6dac4350d733&">
+        <img id="Imagen_3" src="https://cdn.discordapp.com/attachments/865742990907015171/1174349223072899072/imagen_2023-11-15_090420538-removebg-preview.png?ex=656744f1&is=6554cff1&hm=706fcb4e9e951aa9bdc77a3b4a1df1e72a1cb37cec76d90581fe27891cb9dbf7&">
+        <img id="Imagen_4" src="https://cdn.discordapp.com/attachments/865742990907015171/1174349546525036585/imagen_2023-11-15_090539213-removebg-preview.png?ex=6567453e&is=6554d03e&hm=718a43de76295933e89745e67601b3cb7ce8ae2d2b97fc8787631223db6643dc&">
       </div>
+    </div>
+    <div class="pop-up_1">
+      <a href="#" class="close-button" onclick="togglePopUp()"></a>
+      <h3>Puerta de Seguridad</h3>
+      <p>El desarrollador Scott Cawthon durante el desarrollo del juego tuvo una pesadilla con uno de los personajes “Bonnie” el cual se paro justo en la puerta de su habitación mirándolo fijamente.</p>
+      <p>Scott intento cerrar la puerta pero era incapaz, de esa pesadilla surgió no solo un miedo de Scott hacia el personaje, pero una mecánica la cual hace que Bonnie pueda bloquear la puerta de seguridad.</p>
+    </div>
+  
+    <div class="pop-up_2">
+      <a href="#" class="close-button-tercera" onclick="togglePopUp()"></a>
+      <h3>Grabacion de Telefono</h3>
+      <p>La voz que suena en las grabaciones de los primeros 3 juegos es del propio desarrollador: Scott cawthon quien debido al limitado presupuesto de los juegos no podía permitirse un actor de voz profesional.</p>
+      <p>El incluso hace la voz del tipo del teléfono de las 2 primeras noches en la 3ra entrega.</p>
+    </div>
+  
+    <div class="pop-up_3">
+      <a href="#" class="close-button-tercera" onclick="togglePopUp()"></a>
+      <h3>Garfio Pirata</h3>
+      <p>El personaje “foxy el pirata” fue desarrollado de forma algo apresurada.</p>
+      <p>Scott lo creo durante un viaje de carretera junto a su familia es por eso que el personaje parece algo mas descuidado con los demás en cuanto animación se refiere.</p>
+    </div>
+    
+    <div class="pop-up_4">
+      <a href="#" class="close-button-tercera" onclick="togglePopUp()"></a>
+      <h3>Marionte de Seguridad</h3>
+      <p>El impacto de five nights at freddy’s no se mide solo en el género sino también en su desarrolladora, Fnaf fue creado por una sola persona con un presupuesto mas que limitado.</p>
+      <p>esto no solo inspiro múltiples desarrolladores independientes pero también le dio al genero de terror una presencia muy grande en el mundo indie.</p>
     </div>
 </body>
 </html>

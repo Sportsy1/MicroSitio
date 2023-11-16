@@ -16,20 +16,21 @@ body {
 }
 
 .casa {
-  background-color: #a6c288;
   position: absolute;
   width: 579px;
   height: 390px;
   left: 133px;
+  background-image: url('https://i.redd.it/5fc2npi6jsq11.png');
+  background-size: cover;
+  background-position-y: -111px;
 }
 
 .puerta {
-  background-color: #ebe68d;
   position: absolute;
-  width: 133px;
- height: 166px;
- bottom: 30px;
- left: 223px;
+  width: 84px;
+  height: 125px;
+  bottom: 8px;
+  left: 232px;
 }
 
 header {
@@ -45,11 +46,11 @@ header {
 }
 
 .Titulo {
- position: absolute;
- font-family: 'Lexend', sans-serif;
- font-size: 27px;
+  position: absolute;
+  font-family: 'Lexend', sans-serif;
+  font-size: 27px;
   text-align: center;
- color: #ebe68d;
+  color: #ebe68d;
 }
 
 .highlight {
@@ -75,19 +76,20 @@ header {
   }
   
   .casa {
-    background-color: #a6c288;
     position: absolute;
     width: 1130px;
     height: 960px;
     left: 155px;
+    background-image: url('https://i.redd.it/5fc2npi6jsq11.png');
+    background-size: cover;
+    background-position-y: -27px;
   }
   
   .puerta {
-    background-color: #ebe68d;
     position: absolute;
-    width: 280px;
-    height: 334px;
-    bottom: 230px;
+    width: 226px;
+    height: 373px;
+    bottom: 8px;
     left: 425px;
   }
   
@@ -137,15 +139,17 @@ header {
     width: 1668px;
     height: 1080px;
     left: 126px;
+    background-image: url('https://i.redd.it/5fc2npi6jsq11.png');
+    background-size: cover;
+    background-position-y: -387px;
   }
   
   .puerta {
-   background-color: #ebe68d;
    position: absolute;
-   width: 182px;
-   height: 217px;
-   bottom: 214px;
-   left: 743px;
+   width: 285px;
+   height: 302px;
+   bottom: 25px;
+   left: 648px;
   }
   
   header {

@@ -6,6 +6,7 @@
   <link rel = "stylesheet" href = "css/PERSONAJE.css">
   <link rel="stylesheet" href="css/PLANTILLA.css">
   <link rel="stylesheet" href="css/HABITACIONES.css">
+  <link rel="stylesheet" href="css/POP_UPS/POP-UPS_COCINA.css">
   <script src="js/juego.js"></script>
   <title>COCINA</title>
 </head>
@@ -29,6 +30,7 @@
             <div class = item_12></div>
           </div>
         </div>
+        <div id="limitante"></div>
         <div class="menu-buttons">
           <a href ="MAPA.html">
             <div class="mapa"></div>
@@ -43,9 +45,41 @@
            <div class="margen"></div>
            <div class="circle"></div>
         </div>
-        <img id="my-image" src="imagenes/cocinapng.png"></img>
+        <img id="background" src="https://rare-gallery.com/uploads/posts/916284-video-games-Amnesia-The-Dark-Descent-screen-shot.jpg"></img>
+        <button id="showPopUpButton"></button>
         <div id ="personaje"></div>
+        <img id="Imagen_1" src="https://cdn.discordapp.com/attachments/865742990907015171/1174328797978431568/imagen_2023-11-15_074306073-removebg-preview.png?ex=656731eb&is=6554bceb&hm=48adfff3846f4f384a18ba25ca3bfe8e475123bce16758f8cdbfcd459456b754&">
+        <img id="Imagen_2" src="https://cdn.discordapp.com/attachments/865742990907015171/1174337911890657291/imagen_2023-11-15_081924918-removebg-preview.png?ex=65673a68&is=6554c568&hm=bdc39c706d7df9d55436cc1de325c50a59ed0f43a10b48e39be44b91e1031149&">
+        <img id="Imagen_3" src="https://cdn.discordapp.com/attachments/865742990907015171/1174338274496618526/imagen_2023-11-15_082052668-removebg-preview.png?ex=65673abe&is=6554c5be&hm=4f392f0dade2ab27b70c1ffd3d8c17babd1654b5d344bb249031a26253103011&">
+        <img id="Imagen_4" src="https://cdn.discordapp.com/attachments/865742990907015171/1174338591292407889/imagen_2023-11-15_082201921-removebg-preview.png?ex=65673b0a&is=6554c60a&hm=caa2daab198802a58dd6d9054c3608a434b7750dc92cc88f42da1998c477a028&">
       </div>
+    </div>
+    <div class="pop-up_1">
+      <a href="#" class="close-button" onclick="togglePopUp()"></a>
+      <h3>Linterna de Aceite</h3>
+      <p>La mecánica de luz y oscuridad iba a tener un peso aun mas profundo en el gameplay del juego.</p>
+      <p>Los desarrolladores lo llamaban “puzles basados en luz” pero por limitaciones técnicas y gameplay loop se dejó solo en el sistema de sanidad.</p>
+    </div>
+  
+    <div class="pop-up_2">
+      <a href="#" class="close-button-tercera" onclick="togglePopUp()"></a>
+      <h3>Cuadro de Alexander</h3>
+      <p>El consejo que te da el juego acerca de “Si tienes tu sanidad baja los enemigos te detectaran mas fácilmente”.</p>
+      <p>Es de hecho una mentira puesta para poner aun mas nerviosos a los jugadores con baja sanidad.</p>
+    </div>
+  
+    <div class="pop-up_3">
+      <a href="#" class="close-button-tercera" onclick="togglePopUp()"></a>
+      <h3>Orbe</h3>
+      <p>El juego esta desarrollado en el motor HPL Engine, un motor desarrollado por frictional games para su saga de juegos Penumbra.</p>
+      <p>Lo han seguido utilizando para sus demás entregas como soma o amnesia a machine for pigs.</p>
+    </div>
+    
+    <div class="pop-up_4">
+      <a href="#" class="close-button-tercera" onclick="togglePopUp()"></a>
+      <h3>Luna Hermana</h3>
+      <p>El impacto de amnesia en la industria no se mide solo por la increíble y terrorífica calidad del juego y su manejo del miedo y expectación del jugador sino por un factor externo.</p>
+      <p>La atención del medio, este fue el primer juego de terror en recibir una cantidad inmensa de atención en los medios poniendo al género de terror.</p>
     </div>
 </body>
 </html>
