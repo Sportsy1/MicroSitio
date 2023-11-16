@@ -1,7 +1,7 @@
 {
   "name": "videogames_history",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "HOME.js",
   "scripts": {
     "clear:dev": "rimraf ./dist",
     "dev": "npm run clear:dev && parcel ./src/*.html --public-url ./"
